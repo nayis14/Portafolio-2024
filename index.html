@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+<!--Animaciones CSS CDN-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <title>Nadia Peralta - Portafolio Web</title>
+</head>
+<body>
+   
+    <!--Barra de Navegación-->
+
+        <nav>
+            <h1>Nadia Peralta</h1>
+            <ul>
+                <li><a href="#about" 
+                    class="nav-link">About</a></li>
+                <li><a href="#skills"      
+                    class="nav-link">Skills</a></li>
+                <li><a href="#projects"
+                    class="nav-link">Projects</a></li>
+                <li><a href="contact"
+                    class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!--Sección Hero-->
+        <section class="hero" id="about">
+            <img src="images/nayis.png" alt="Nadia" class="hero-img" loading="lazy">
+            <div class="bio animate__animated animate__shakeX">
+                <h1 class="bio-title">About me</h1>
+                <p class="bio-text">Nadia Peralta, seventh-semester student pursuing a Bachelor's degree in Educational Innovation at the Tecnológico de Monterrey, Campus Monterrey. She currently works as a trainer and instructional designer at Axioma.</p>
+            </div>
+        </section>
+
+
+
+        <!--More about me-->
+        <section class="more-about">
+            <h2>More About Me</h2>
+            <p>Education is a vocation she deeply appreciates, considering it significantly connects with her personal profile, future projections and career development vision. Similarly, as part of her university education, she is motivated by the commitment to responsibly seek innovative proposals with ethical engagement.</p>
+            <p>Currently, she works at Axioma as an instructional designer for AI courses, content creador for marketing and personalized consulting. Her future plan is to become a mentor in the technology field, aiming to inspire more people to pursue careers in education and STEM.</p>
+            <p>Furthermore, it's worth nothing that her pasion is practicipng sports. Basketball is more than just a discipline for her, it's essentially her therapy. There's no doubt that when she plays, she forgets about everything else. That's why she loves this sport so much.</p>
+        </section>
+
+
+        <!--Skills-->
+
+        <section class="skills" id="skills">
+            <h2 class="skill-header">Mi Top Skills</h2>
+                <div class="skills-wrapper">
+                        <div class="first-set animate__animated animate__pulse">
+                        <img src="images/html5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                        <img src="images/css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                        <img src="images/javascript.svg" alt="JavasScript" loading="lazy" class="icon icon-card">
+                        </div>
+                            
+                            <div class="second-set animate__animated animate__pulse">
+                            <img src="images/bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+                            <img src="images/github.svg" alt="Github" loading="lazy" class="icon icon-card">
+                            <img src="images/react-native.svg" alt="ReactNative" loading="lazy" class="icon icon-card">
+                            </div>
+                </div>
+        </section>
+
+
+<!--Projects-->
+
+<section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    
+    <div class="projects-container">
+        <div class="project-container project-card">
+            <img src="images/Vistaprevia.png" alt="" loading="lazy" class="project-pic">
+            <h3 class="project-title">Pinterest Clone</h3>
+            <p class="project-details">This project is a clone of the Pinterest home interface, created purely with HTML5 and CSS3.</p>    
+                <a href="https://nayis14.github.io/Interfazdepinterest/" target="_blank">Check it out</a>
+        </div>
+        
+
+        <div class="project-container project-card">
+            <img src="images/Vistaprevia.png" alt="" loading="lazy" class="project-pic">
+            <h3 class="project-title">Project 2</h3>
+            <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+        </div>
+
+
+        <div class="project-container project-card">
+            <img src="images/Vistaprevia.png" alt="" loading="lazy" class="project-pic">
+            <h3 class="project-title">Project 3</h3>
+            <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+        </div>
+    
+    </div>
+
+</section>
+
+
+<!--Redes sociales-->
+
+<div class="socials">
+    <a href="https://www.linkedin.com/in/peralta-garc%C3%ADa-nadia-35abb4279/" target="_blank"><img src="icons/linkedin.png" alt="linkedIn" loading="lazy" class="socicon"></a>
+
+    <a href="https://www.instagram.com/nadiaperaltag?igsh=MW1kcTV1MmN3a2dkeg%3D%3D&utm_source=qr" target="_blank"><img src="icons/insta.png" alt="Instagram" loading="lazy" class="socicon"></a>
+
+    <a href="https://github.com/nayis14" target="_blank"><img src="icons/github.png" alt="Github" loading="lazy" class="socicon"></a>
+
+    <a href="https://wa.me/527661024292" target="_blank"><img src="icons/whatsapp.png" alt="whatsapp" loading="lazy" class="socicon"></a>
+
+
+</div>
+
+<!--Scroll buttom-->
+<i class="scroll-up" id="scroll-up">
+    <img src="icons/arrow_up.gif" class="socicon up-arrow" alt="scroll up">
+</i>
+
+
+
+<!--Footer-->
+<footer>
+    <p>Built by <a href="https://www.linkedin.com/in/peralta-garc%C3%ADa-nadia-35abb4279/" target="_blank">Peralta</a></p>
+</footer>
+
+
+        <!--Conexión con JavaScript-->
+        <script src="app.js"></script>
+
+
+<!--Ion icons scripts-->
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
